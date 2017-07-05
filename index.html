@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<link rel="shortcut icon" href="http://findicons.com/files/icons/1799/bathroom/16/duck.png" type="image/ico" />
+<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+<html><title>páMATÉRIA</title><head>
+    <meta charset="UTF-8">    
+    </head><body><style>
+      
+#navbar { font: 900 11px open sans; letter-spacing: 1px; color: #fff; text-transform: uppercase; border-top: 4px solid #fff; padding-top: 10px; padding-bottom: 45px; width: 370px; margin-left: 200px; margin-top: -15px; }
+#navbar a { padding-right: 44px; cursor: pointer; }
+#carrossel { padding: 50px 20px; width: 1200px; }
+#carrossel img { margin: 0px 10px; }
+#carrossel a { cursor: pointer; color: white; font-size: 100px; margin-top: 10px; position: absolute; }
+#pa-home { background-color: #f3f9ff; margin: 15px; }
+#pa-home t { color: #fff; font: 100 130px Open Sans; }
+#pa-home a { text-decoration: none; }
+
+.mat-capa { margin-bottom: 100px; background: #eee no-repeat top center; width: 100%; padding: 70px 0px; height: 460px; font: 400 13px lato; text-align: left;  }
+.mat-capa p { margin-bottom: -12px; text-indent: 25px; line-height: 140%; }
+.mat-capa l { line-height: 140%; }
+#pa-home tit { font: italic bold 50px Playfair Display; text-align: center; display: block;  line-height: 100%; }
+#pa-home subt { font: 600 11px open sans; text-transform: uppercase; letter-spacing: 1.5px; }
+.mat-quote { font: 700 italic 25px playfair display; text-align: left; line-height: 100%; padding: 30px 0px; color: #e85d5d; }
+
+    .sp-slideshow { position: relative; margin: 0px auto; width: 1200px; height: 600px; }
+    .sp-content { background: #fff; position: relative; width: 100%;height: 100%; overflow: hidden; }
+    
+    .sp-parallax-bg {background: #f3f9ff; -webkit-background-size: cover;-moz-background-size: cover;background-size: cover;position: absolute;top: 0;left: 0;width: 100%;height: 100%;overflow: hidden;}
+    
+    .sp-slideshow input {position: absolute;bottom: 15px;left: 50%;width: 9px;height: 9px;z-index: 1001;cursor: pointer;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter: alpha(opacity=0);opacity: 0;}
+    
+.sp-slideshow input + label {position: absolute;bottom: 20px; left: 100%;width: 6px;height: 6px;display: block;z-index: 1000; background-color: #fff; border: 1px solid #e85d5d;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;-webkit-transition: background-color linear 0.1s;-moz-transition: background-color linear 0.1s;-o-transition: background-color linear 0.1s;-ms-transition: background-color linear 0.1s;transition: background-color linear 0.1s;}
+    .sp-slideshow input:checked + label { background-color: #e85d5d;}
+  
+</style>
+<style>
+    .sp-selector-1, .button-label-1 {margin-left: -36px;}
+    .sp-selector-2, .button-label-2 {margin-left: -18px;}
+    .sp-selector-3, .button-label-3 {margin-left: 0px;}
+    .sp-selector-4, .button-label-4 {margin-left: 18px;}
+    .sp-selector-5, .button-label-5 {margin-left: 36px;}
+    .sp-selector-6, .button-label-6 {margin-left: 54px;}
+    .sp-selector-7, .button-label-7 {margin-left: 72px;}
+    .sp-selector-8, .button-label-8 {margin-left: 90px;}
+    
+    .sp-arrow {position: absolute;top: 50%;width: 28px;height: 37px;margin-top: -19px;display: none;cursor: pointer;z-index: 1000; background: center top transparent url(http://i.imgur.com/hEfN7rx.png) no-repeat;-webkit-transition: opacity linear 0.3s;-moz-transition: opacity linear 0.3s;-o-transition: opacity linear 0.3s;-ms-transition: opacity linear 0.3s;
+    transition: opacity linear 0.3s;}
+    .sp-arrow:hover{opacity: 1;}
+    .sp-arrow:active{margin-top: -18px;}
+    .sp-selector-1:checked ~ .sp-arrow.sp-a2,
+    .sp-selector-2:checked ~ .sp-arrow.sp-a3,
+    .sp-selector-3:checked ~ .sp-arrow.sp-a4,
+    .sp-selector-4:checked ~ .sp-arrow.sp-a5, 
+    .sp-selector-5:checked ~ .sp-arrow.sp-a6,
+    .sp-selector-6:checked ~ .sp-arrow.sp-a7,
+    .sp-selector-7:checked ~ .sp-arrow.sp-a8{right: 15px;display: block;background-position: top right;}
+    .sp-selector-2:checked ~ .sp-arrow.sp-a1,
+    .sp-selector-3:checked ~ .sp-arrow.sp-a2,
+    .sp-selector-4:checked ~ .sp-arrow.sp-a3,
+    .sp-selector-5:checked ~ .sp-arrow.sp-a4,
+    .sp-selector-6:checked ~ .sp-arrow.sp-a5, 
+    .sp-selector-7:checked ~ .sp-arrow.sp-a6,
+    .sp-selector-8:checked ~ .sp-arrow.sp-a7{left: 15px;display: block;background-position: top left;}
+    
+    
+    .sp-slideshow input:checked ~ .sp-content {-webkit-transition: background-position linear 0.6s, background-color linear 0.8s;-moz-transition: background-position linear 0.6s, background-color linear 0.8s;-o-transition: background-position linear 0.6s, background-color linear 0.8s;-ms-transition: background-position linear 0.6s, background-color linear 0.8s;transition: background-position linear 0.6s, background-color linear 0.8s;}
+    
+    .sp-slideshow input:checked ~ .sp-content .sp-parallax-bg {-webkit-transition: background-position linear 0.7s;-moz-transition: background-position linear 0.7s;-o-transition: background-position linear 0.7s;-ms-transition: background-position linear 0.7s;transition: background-position linear 0.7s;}
+    
+    input.sp-selector-1:checked ~ .sp-content {background-position: 0 0;background-color: #727b7f;} 
+    input.sp-selector-2:checked ~ .sp-content {background-position: -100px 0; background-color:#7f7276;} 
+    input.sp-selector-3:checked ~ .sp-content {background-position: -200px 0;background-color: #737f72;} 
+    input.sp-selector-4:checked ~ .sp-content {background-position: -300px 0;background-color: #79727f;} 
+    input.sp-selector-5:checked ~ .sp-content {background-position: -400px 0;background-color: #7d7f72;} 
+    input.sp-selector-6:checked ~ .sp-content {background-position: -500px 0;background-color: #7d7f72;} 
+    input.sp-selector-7:checked ~ .sp-content {background-position: -500px 0;background-color: #7d7f72;} 
+    input.sp-selector-8:checked ~ .sp-content {background-position: -500px 0;background-color: #7d7f72;} 
+    
+    input.sp-selector-1:checked ~ .sp-content .sp-parallax-bg {background-position: 0 0;} 
+    input.sp-selector-2:checked ~ .sp-content .sp-parallax-bg {background-position: 0 0;} 
+    input.sp-selector-3:checked ~ .sp-content .sp-parallax-bg {background-position: 0 0;} 
+    input.sp-selector-4:checked ~ .sp-content .sp-parallax-bg {background-position: 0 0;} 
+    input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {background-position: 0 0;} 
+    input.sp-selector-6:checked ~ .sp-content .sp-parallax-bg {background-position: 0 0;} 
+    input.sp-selector-7:checked ~ .sp-content .sp-parallax-bg {background-position: 0 0;} 
+    input.sp-selector-8:checked ~ .sp-content .sp-parallax-bg {background-position: 0 0;} 
+    
+    .sp-slider { position: relative; left: 0; width: 9600px;height: 100%;list-style: none; margin: 0;padding: 0;-webkit-transition: left ease-in 0.8s; -moz-transition: left ease-in 0.8s; -o-transition: left ease-in 0.8s; -ms-transition: left ease-in 0.8s;transition: left ease-in 0.8s; }
+    
+    .sp-slider > li {
+    height:100%;
+    padding:0 60px;
+    width: 1200px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    float:left;
+    text-align:center;
+    opacity:0.4; 
+    -webkit-transition:opacity ease-in 0.4s 0.8s;
+    -moz-transition:opacity ease-in 0.4s 0.8s;
+    -o-transition:opacity ease-in 0.4s 0.8s;
+    -ms-transition:opacity ease-in 0.4s 0.8s;
+    transition:opacity ease-in 0.4s 0.8s; } 
+    
+    .sp-slider > li img{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-o-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;display: block;margin: 0 auto;padding: 40px 0 50px 0;max-height: 100%;max-width: 100%;}
+    
+    
+    input.sp-selector-1:checked ~ .sp-content .sp-slider {left: 0;}
+    input.sp-selector-2:checked ~ .sp-content .sp-slider {left: -1200px;}
+    input.sp-selector-3:checked ~ .sp-content .sp-slider {left: -2400px;}
+    input.sp-selector-4:checked ~ .sp-content .sp-slider {left: -3600px;}
+    input.sp-selector-5:checked ~ .sp-content .sp-slider {left: -4800px;}
+    input.sp-selector-6:checked ~ .sp-content .sp-slider {left: -6000px;}
+    input.sp-selector-7:checked ~ .sp-content .sp-slider {left: -7200px;}
+    input.sp-selector-8:checked ~ .sp-content .sp-slider {left: -8400px;}
+    
+    
+    input.sp-selector-1:checked ~ .sp-content .sp-slider > li:first-child,
+    input.sp-selector-2:checked ~ .sp-content .sp-slider > li:nth-child(2),
+    input.sp-selector-3:checked ~ .sp-content .sp-slider > li:nth-child(3),
+    input.sp-selector-4:checked ~ .sp-content .sp-slider > li:nth-child(4),
+    input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5),
+    input.sp-selector-6:checked ~ .sp-content .sp-slider > li:nth-child(6),
+    input.sp-selector-7:checked ~ .sp-content .sp-slider > li:nth-child(7),
+    input.sp-selector-8:checked ~ .sp-content .sp-slider > li:nth-child(8){ opacity: 1; }
+    
+</style>
+<center>
+<div style="background-color: #fff; width: 100%; height: 20px; position: fixed; top: 0; z-index: 99999999;"></div>
+<div style="background-color: #fff; width: 100%; height: 20px; position: fixed; bottom: 0; z-index: 99999999;"></div>
+<div id="pa-home">
+
+      <div style="background: #f1e573; padding-top: 70px; padding-bottom: 50px;">
+      <a href="https://paideias.github.io/home/"><t>PÁ IDEIAS</t></a>
+            <div id="navbar"><a>comprar</a><a>edições</a><a>favoritos</a><a>contato</a></div>
+      <div id="carrossel">
+      <a style="margin-left: -80px;">❮</a>
+      
+        <img src="http://i.imgur.com/jLdwSI1.png" />
+        <img src="http://i.imgur.com/jLdwSI1.png" />
+        <img src="http://i.imgur.com/jLdwSI1.png" />
+        <img src="http://i.imgur.com/jLdwSI1.png" />
+        <img src="http://i.imgur.com/jLdwSI1.png" />
+        <img src="http://i.imgur.com/jLdwSI1.png" />
+        
+      <a style="margin-left: 25px;">❯</a>  
+      </div></div>
+
+  
+
+
+
+
+
+
+<div class="sp-slideshow">
+            
+   <input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
+   <label for="button-1" class="button-label-1"></label>
+   <input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
+   <label for="button-2" class="button-label-2"></label>
+   <input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
+   <label for="button-3" class="button-label-3"></label>
+   
+    
+   <label for="button-1" class="sp-arrow sp-a1"></label>
+   <label for="button-2" class="sp-arrow sp-a2"></label>
+   <label for="button-3" class="sp-arrow sp-a3"></label>
+      
+    
+   <div class="sp-content">
+       <div class="sp-parallax-bg"></div>
+       <ul class="sp-slider clearfix">
+           <li>
+           
+           
+           
+            <div class="mat-capa" style="background: #fff center center url(http://i.imgur.com/x10Yuzf.png) no-repeat;"> 
+  <div style="padding: 15px 30px 40px 30px; width: 290px; float: right; background-color: white;">
+  <p>A discussão sobre a morte da arte teve um lugar essencial nas Lições de Estética, de Hegel, no século 19. Não se pode perder de vista que a morte da arte à qual Hegel se referia era a da arte bela e não da arte de modo geral. Se Hegel tem razão, em havendo uma morte da arte que não deve ser generalizada, trata-se de entender que tipo de arte, para além da arte bela, sobreviveu. Em um século de genocídios, ditaduras e violências de toda sorte, a arte é a memória da sua própria morte.    
+A pré-história dessa percepção está na Crítica da Faculdade de Julgar, de Kant, que antes afirmou a existência de dois sentimentos, o belo e o sublime, como sustentáculos da experiência estética. Belo – a sensação de prazer com os objetos agradáveis – e sublime – um misto de prazer com desprazer – são formas de acesso subjetivo à beleza, tanto da natureza quanto das artes. Kant define a arte bela como aquela que pode representar de modo belo até mesmo as coisas feias. A tarefa histórica da arte sempre foi a de colocar beleza no mundo e suplantar o feio. Criamos essa expectativa e isso hoje em dia não nos ajuda.
+</p></div>
+  <div style="padding: 170px 40px 0px 100px; height: 150px; width: 540px; color: white; float: left;">
+    <tit>O luto da arte</tit><p><br>
+  <center><subt>A tese da morte da arte ainda<br> significa mais do que parece</subt></center></div>
+</div>
+           
+           
+           
+           
+           
+  
+</li>
+<li>
+             
+             
+             
+             
+<div class="mat-capa" style="background: right #fff;">
+  <div style="padding: 0px 20px 0px 60px; margin-top: -20px; width: 285px; float: left;">
+
+<p>Mas o próprio Kant disse que havia uma espécie de feiura, que não pode ser representada de acordo com a natureza sem cancelar a complacência estética, ou seja, a nossa capacidade de perceber a beleza em geral e a beleza da arte. Kant refere-se à feiura que desperta asco. O asco, segundo Kant, é uma “sensação peculiar” marcada pela imposição do objeto feio que imediatamente se nos lança sobre os sentidos, sem que desejemos aceitar sua presença. O filósofo espanhol Eugenio Trías dá um exemplo repugnante só de ler: quem pisa em um rato morto e eviscerado na rua tem a sensação de que ele vai parar dentro da boca. A experiência do asco se dá como se um prato de merda fosse oferecido para se comer.</p>  
+<p>O asco é uma espécie de sentimento impossível, por estar na contramão do gosto. Podemos traduzi-lo por nojo. E nojo é algo que se traduz por luto. A experiência do asco ou do nojo, 
+como experiência do desgosto, é da mesma ordem da experiência do luto, de algo que não desejamos e que mesmo assim se impõe. A lástima pela perda de um objeto amado, mas também do gosto – 
+seja pela arte, seja pela vida – que acompanhava aquele objeto é experiência disseminada em nossa cultura, da qual a arte atual vem a ser a apresentação mais clara.</p>
+</div>
+
+<div style="padding-left: 150px; margin-top: -20px; width: 240px; float: left;">
+ <p> O luto é sempre uma reação à perda de um objeto amado. É, portanto, a experiência da morte enquanto ela pode ser conhecida: a morte dos outros,</p><div style="padding: 18px 13px 5px 13px; margin-left: -70px; float: left; font: italic 700 26px playfair display; text-align: right; line-height: 100%;">A arte,<br> do asco<br> ao luto
+</div><p style="text-indent: 0px;"> das coisas, das experiências. Até mesmo, como em Luto e Melancolia, de Freud, a perda de uma abstração, de um ideal qualquer. Nunca a da epicuriana morte que não encontraremos, pois já não estaremos quando ela aparecer. A arte contemporânea é experiência enlutada e, por isso, dói tanto tratar dela. Encará-la é experimentar o luto na forma de sua exposição possível. Mas, se há entre arte e vida, entre ficção e realidade, uma relação que é sempre de mimese, por imitação ou por mimetismo, e se há tanta perda na vida, a arte não deveria ser nosso resgate para além do que a vida nos dá sem nenhuma elaboração?        </p>
+<p>A promessa romântica da arte é que ela viria nos salvar da vida. Mas, após a perda da ingenuidade romântica, por que ainda esperamos tanto da arte? Arte é apenas um conceito que tem tão pouco valor quanto pouco uso nos dias de hoje.</p></div>
+
+<div style="padding-right: 60px; margin-top: -7px; width: 240px; float: right; letter-spacing: -.1px;">
+
+<l>  No entanto, arte ainda é, como conceito, algo que vai na frente da nossa sempre atrasada sensibilidade. Que a arte mova nossa sensibilidade é a esperança sem fundamento de muitos, mas sensibilidade é uma formulação imprecisa entre o perigoso culto da emoção e os sentimentos que só são elaborados mediante a interferência da racionalidade capaz de criar conceitos. Não há chance de que arte hoje seja mais do que uma construção para fazer pensar.        </l>
+<p style="margin-top: 0px; letter-spacing: -.1px;">Temos na experiência contemporânea da arte a autopresentificação do seu próprio luto. Como se a arte ainda estivesse no período enojado em que tem que se haver com a memória de um cadáver que é ela mesma e que, na verdade, mimetiza o estado das coisas de um mundo em crise de sentido. Assim é que a obsolescência do conceito de arte o coloca na posição de um conceito-memória. Um conceito que foi válido, mas que perdeu sua circunstância na atualidade. Arte não é mais a bela arte, ainda que possamos com muito esforço descobrir nas obras que a beleza também é um conceito e, como tal, uma visão das coisas.   </p>
+
+</div>
+</div>
+             
+             
+             
+             
+             
+           </li>
+           <li>
+             
+             
+             
+             
+<div class="mat-capa" style="background: right #fff url(http://i.imgur.com/jA8VpLU.png);">
+  <div style="padding: 0px 0px 0px 60px; margin-top: -17px; width: 230px; float: left; letter-spacing: -.2px;">
+<p>O que a arte contemporânea nos sugere é a experiência do paradoxo do </p><div style="padding: 18px 13px 5px 13px; margin-left: -50px; float: left; font: italic 700 20px playfair display; text-align: right; line-height: 100%;">o paradoxo<br> do gosto
+</div><p style="text-indent: 0px;">gosto. Como é possível “apreciar” esteticamente aquilo que repugna se neste momento a experiência estética como mediação entre
+sensibilidade e racionalidade foi anulada? A questão é que a arte contemporânea, sendo trabalho do luto, acontecendo na contramão do gosto, provoca sempre a experiência do desgosto. Por isso, a arte conceitual
+tem tanto espaço em nosso tempo, por chamar ao pensamento em</p>
+</div>
+
+
+<div style="padding: 0px 20px 0px 20px; width: 230px; float: left; margin-top: -4px; letter-spacing: -.2px;">
+<l>tempos de cancelamento da sensibilidade. É como se toda obra nos enviasse a mensagem: se não podemos “gostar”, podemos “pensar”. É o paradoxo da inestética:
+a sensação é de perda da sensibilidade na arte; mais do que um problema da arte, é problema da cultura na qual ela surge. Um artista como Damien Hirst, com seus bezerros e tubarões no formol, não é, portanto, julgável
+segundo o padrão do gosto pela arte bela, porque estamos em tempos de perda do gosto. O que será que ele nos mostra que não sabemos pensar?</l>
+</div>
+
+
+<div style="padding-right: 20px; margin-top: 163px; width: 220px; float: left;">
+  <p><span style="letter-spacing: -.2px;">Com isso se consegue compreender</span> o que acontece com a arte atual. Ela é a experiência da morte da própria arte bela nestes tempos de desgraça cultural. Tempos tensos: de um lado tragicofílicos – desejamos a tragédia – e de outro tragicofóbicos – evitamos a morte a qualquer custo –, como disse Hans Gumbrecht. Podemos dizer, nestes tempos, que a arte se faz na ordem do trágico, este sentimento da “morte em mim”, da morte como experiência subjetiva, como imagem da melancolia que nada mais é do que a morte do eu e do pensamento que sempre foi a prova de que existia algo chamado “eu”. Não, não exageremos.</p>
+</div>
+
+
+<div style="padding-right: 60px; margin-top: 163px; width: 215px; float: right;letter-spacing: -.2px;">
+<p>A arte contemporânea não é nem trágica nem melancólica. Enlutada, ela nos pede que ultrapassemos a memória da morte e reinventemos o presente. Só o que impede isso é o capital culto à desgraça em que vivemos hoje. O gozo atual é com a ideologia da morte como um fim, quando, na verdade, estúpidos e conceitualmente avarentos, não sabemos entender o valor e o poder das transformações históricas das quais a arte nos dá apenas uma imagem para nos fazer acordar. Mas quando até mesmo a desgraça se tornou um “capital”, haverá espaço para a arte que denuncia o seu caráter capitalista? (<i>Marcia Tiburi</i>)</p>
+</div>
+             
+             
+             
+           </li>
+            
+           
+           
+           
+           
+       </ul>
+   </div>     
+</div>
+
+
+
+
+<style>
+.nav { padding: 30px 0px 0px 0px; color: #fff; color: black; font: 700 9px open sans; background-color: #5cd9ea; font: 900 25px Lato; text-transform: uppercase; }
+.nav a { color: white;  } .nav b { font-size: 70px; margin: -20px 30px 0px 0px; float: left; }
+.nav b2 { font-size: 70px; margin: -20px 0px 0px 30px; float: right; }
+  
+</style>
+<div class="nav">
+       <div style="width: 560px; HEIGHT: 100PX; DISPLAY: INLINE-TABLE; TEXT-ALIGN: LEFT;"><a href="https://paideias.github.io/materia9/"><b>❮</b>Tecnologia e<br> arte digital</a></div>
+      <div style="width: 530px;  HEIGHT: 100PX; DISPLAY: INLINE-TABLE; TEXT-ALIGN: RIGHT;"><a href="https://paideias.github.io/materia5/"><b2>❯</b2>GRAFITTI É VANDALISMO,<br> Pichação é Arte </a></div>
+</div></center></body>
+	</html>
+  
+  
+  
+  
+  
+  
