@@ -3,35 +3,44 @@
 <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
-
-<html><title>páMATÉRIA</title><head>
+  
+<html><title>páMATERIA</title><head>
     <meta charset="UTF-8">    
-   </head><body style="margin: 0px;"><style>
+    </head><body style="margin: 0px;"><style>
       
 #navbar { font: 900 10px open sans; letter-spacing: 1px; color: #fff; text-transform: uppercase; padding-top: 15px; float: right; }
 #navbar a { padding-right: 10px; cursor: pointer; }
-#pa-home { background-color: #f3f9ff; }
+#pa-home { background-color: #fff; }
 #pa-home t { color: #fff; font: 100 30px Open Sans; float: left; }
 #pa-home y { border-bottom: 2px solid #fff; }
 #pa-home a { text-decoration: none; }
-
-
 .mat-capa { margin-bottom: 100px; background: #eee no-repeat top center; width: 100%; padding: 70px 0px; height: 460px; font: 400 13px lato; text-align: left;  }
 .mat-capa p { margin-bottom: -12px; text-indent: 25px; line-height: 140%; }
 .mat-capa l { line-height: 140%; }
 #pa-home tit { font: italic bold 50px Playfair Display; text-align: center; display: block;  line-height: 100%; }
 #pa-home subt { font: 600 11px open sans; text-transform: uppercase; letter-spacing: 1.5px; line-height: 130%; }
 .mat-quote { font: 700 italic 25px playfair display; text-align: left; line-height: 100%; padding: 30px 0px; color: #e85d5d; }
-
 .sp-slideshow { position: relative; margin: 0px auto; width: 1200px; height: 600px; }
     .sp-content { background: #fff; position: relative; width: 100%;height: 100%; overflow: hidden; }
     
-    .sp-parallax-bg {background: #f3f9ff; -webkit-background-size: cover;-moz-background-size: cover;background-size: cover;position: absolute;top: 0;left: 0;width: 100%;height: 100%;overflow: hidden;}
+    .sp-parallax-bg {background: #fff; -webkit-background-size: cover;-moz-background-size: cover;background-size: cover;position: absolute;top: 0;left: 0;width: 100%;height: 100%;overflow: hidden;}
     
     .sp-slideshow input {position: absolute;bottom: 15px;left: 50%;width: 9px;height: 9px;z-index: 1001;cursor: pointer;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter: alpha(opacity=0);opacity: 0;}
     
 .sp-slideshow input + label {position: absolute;bottom: 20px; left: 100%;width: 6px;height: 6px;display: block;z-index: 1000; background-color: #fff; border: 1px solid #e85d5d;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;-webkit-transition: background-color linear 0.1s;-moz-transition: background-color linear 0.1s;-o-transition: background-color linear 0.1s;-ms-transition: background-color linear 0.1s;transition: background-color linear 0.1s;}
     .sp-slideshow input:checked + label { background-color: #e85d5d;}
+  
+  
+  
+  
+.nav { padding: 30px 0px 0px 0px; color: #fff; color: black; font: 700 9px open sans; background-color: #5cd9ea;  font: 900 25px Lato; text-transform: uppercase; bottom: 0; position: absolute; width: 100%; }
+.nav a { color: white;  } .nav b { font-size: 70px; margin: -20px 30px 0px 0px; float: left; }
+.nav b2 { font-size: 70px; margin: -20px 0px 0px 30px; float: right; }
+
+@media only screen and (min-width: 992px) { ... }
+@media only screen and (min-height: 800px) { .nav { padding: 30px 0px 0px 0px; color: #fff; color: black; font: 700 9px open sans; background-color: #5cd9ea; font: 900 25px Lato; text-transform: uppercase; } }
+@media only screen and (min-width: 1900px) { .sp-slideshow { position: relative; margin: 90px auto; }  }
+  
   
 </style>
 <style>
@@ -149,22 +158,18 @@
 
   
 
-
-
 <div class="sp-slideshow">
             
    <input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
    <label for="button-1" class="button-label-1"></label>
    <input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
    <label for="button-2" class="button-label-2"></label>
-   <input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
-   <label for="button-3" class="button-label-3"></label>
    
     
    <label for="button-1" class="sp-arrow sp-a1"></label>
    <label for="button-2" class="sp-arrow sp-a2"></label>
-   <label for="button-3" class="sp-arrow sp-a3"></label>
       
+    
     
    <div class="sp-content">
        <div class="sp-parallax-bg"></div>
@@ -173,16 +178,24 @@
            
            
            
-            <div class="mat-capa" style="background: #fff center center url(http://i.imgur.com/x10Yuzf.png) no-repeat;"> 
-  <div style="padding: 15px 30px 40px 30px; width: 290px; float: right; background-color: white;">
-  <p>A discussão sobre a morte da arte teve um lugar essencial nas Lições de Estética, de Hegel, no século 19. Não se pode perder de vista que a morte da arte à qual Hegel se referia era a da arte bela e não da arte de modo geral. Se Hegel tem razão, em havendo uma morte da arte que não deve ser generalizada, trata-se de entender que tipo de arte, para além da arte bela, sobreviveu. Em um século de genocídios, ditaduras e violências de toda sorte, a arte é a memória da sua própria morte.    
-A pré-história dessa percepção está na Crítica da Faculdade de Julgar, de Kant, que antes afirmou a existência de dois sentimentos, o belo e o sublime, como sustentáculos da experiência estética. Belo – a sensação de prazer com os objetos agradáveis – e sublime – um misto de prazer com desprazer – são formas de acesso subjetivo à beleza, tanto da natureza quanto das artes. Kant define a arte bela como aquela que pode representar de modo belo até mesmo as coisas feias. A tarefa histórica da arte sempre foi a de colocar beleza no mundo e suplantar o feio. Criamos essa expectativa e isso hoje em dia não nos ajuda.
-</p></div>
-  <div style="padding: 170px 40px 0px 100px; height: 150px; width: 540px; color: white; float: left;">
-    <tit>O luto da arte</tit><p><br>
-  <center><subt>A tese da morte da arte ainda<br> significa mais do que parece</subt></center></div>
-</div>
-           
+            
+<div class="mat-capa" style="background: #fff url(http://i.imgur.com/lJQIN4f.png) no-repeat;"> 
+            <div style="padding: 50px 0px 0px 60px; height: 150px; width: 600px; color: white; text-align: left; ">
+    <tit style="text-align: left;">Grafitti é <br>Vandalismo,<br> Pichação <br>é Arte</tit><br><br>
+      <subt>Luana Kobayashi</subt>
+    </div>
+  
+  <div style="margin: -225px 50px 0px 0px; width: 260px; float: right; background-color: #fff; padding: 40px; padding-top: 20px;">
+  
+  <p>Muitos julgam a pichação como vandalismo, o grafitti como arte; a verdade é que ambos são linguagens diferentes de expressão. O documentário PIXO, ilustra e conceitua bem o valor da pichação para o meio urbano de forma
+  surpreendente. A arte, no cenário mundial parece sair gritando das paredes dos museus indo para fora delas. A pichação, ganhou as ruas de São Paulo, o grafitti ganhou São Paulo e o mundo, documentários recentes como: ‘Cidade cinza’,
+  e ‘Graffiti fine art’ retratam como os urbanos sentem, os humanos gritando com cores.</p>
+
+<p>Toda arte é, na verdade, um delírio ou um grito, ou os dois. Geralmente, os dois.</p>
+
+<p>Parecemos ser tão pequenos fazendo parte de algo tão maior quando olhamos para fora. E parecemos ser tão grandes, quando confiantes olhamos para dentro de nós. E quando você olha para o céu, você que é humano, o que você vê? E quem está lá fora, no céu, o que veria se pudesse olhar para nós, humanos? Entre o universo do macrocosmo e do microcosmo: nós, Homo sapiens e a sapiência que tantas vezes parece nos faltar. </p>
+</div></div>
+            
            
            
            
@@ -194,26 +207,29 @@ A pré-história dessa percepção está na Crítica da Faculdade de Julgar, de 
              
              
              
-<div class="mat-capa" style="background: right #fff;">
-  <div style="padding: 0px 20px 0px 60px; margin-top: -20px; width: 285px; float: left;">
-
-<p>Mas o próprio Kant disse que havia uma espécie de feiura, que não pode ser representada de acordo com a natureza sem cancelar a complacência estética, ou seja, a nossa capacidade de perceber a beleza em geral e a beleza da arte. Kant refere-se à feiura que desperta asco. O asco, segundo Kant, é uma “sensação peculiar” marcada pela imposição do objeto feio que imediatamente se nos lança sobre os sentidos, sem que desejemos aceitar sua presença. O filósofo espanhol Eugenio Trías dá um exemplo repugnante só de ler: quem pisa em um rato morto e eviscerado na rua tem a sensação de que ele vai parar dentro da boca. A experiência do asco se dá como se um prato de merda fosse oferecido para se comer.</p>  
-<p>O asco é uma espécie de sentimento impossível, por estar na contramão do gosto. Podemos traduzi-lo por nojo. E nojo é algo que se traduz por luto. A experiência do asco ou do nojo, 
-como experiência do desgosto, é da mesma ordem da experiência do luto, de algo que não desejamos e que mesmo assim se impõe. A lástima pela perda de um objeto amado, mas também do gosto – 
-seja pela arte, seja pela vida – que acompanhava aquele objeto é experiência disseminada em nossa cultura, da qual a arte atual vem a ser a apresentação mais clara.</p>
+<div class="mat-capa" style="background: right #fff url(http://i.imgur.com/ejR6XZG.png);">
+  <div style="padding: 0px 0px 0px 60px; margin-top: -17px; width: 230px; float: left;">
+<p>A arte é uma deliciosa ocupação dos nossos sentidos, é um jeito de entender-mos o que acontece por dentro do outro e por dentro de nós. </p>
+<p>Quem é livre não se acostuma com paredes, natureza não tem portas. Alguns olham para dentro, outros olham para fora. Do Brasil que assiste, para o Brasil que se movimenta.
+  A rua vira tela 
+</p>
 </div>
 
-<div style="padding-left: 150px; margin-top: -20px; width: 240px; float: left;">
- <p> O luto é sempre uma reação à perda de um objeto amado. É, portanto, a experiência da morte enquanto ela pode ser conhecida: a morte dos outros,</p><div style="padding: 18px 13px 5px 13px; margin-left: -70px; float: left; font: italic 700 26px playfair display; text-align: right; line-height: 100%;">A arte,<br> do asco<br> ao luto
-</div><p style="text-indent: 0px;"> das coisas, das experiências. Até mesmo, como em Luto e Melancolia, de Freud, a perda de uma abstração, de um ideal qualquer. Nunca a da epicuriana morte que não encontraremos, pois já não estaremos quando ela aparecer. A arte contemporânea é experiência enlutada e, por isso, dói tanto tratar dela. Encará-la é experimentar o luto na forma de sua exposição possível. Mas, se há entre arte e vida, entre ficção e realidade, uma relação que é sempre de mimese, por imitação ou por mimetismo, e se há tanta perda na vida, a arte não deveria ser nosso resgate para além do que a vida nos dá sem nenhuma elaboração?        </p>
-<p>A promessa romântica da arte é que ela viria nos salvar da vida. Mas, após a perda da ingenuidade romântica, por que ainda esperamos tanto da arte? Arte é apenas um conceito que tem tão pouco valor quanto pouco uso nos dias de hoje.</p></div>
 
-<div style="padding-right: 60px; margin-top: -7px; width: 240px; float: right; letter-spacing: -.1px;">
-
-<l>  No entanto, arte ainda é, como conceito, algo que vai na frente da nossa sempre atrasada sensibilidade. Que a arte mova nossa sensibilidade é a esperança sem fundamento de muitos, mas sensibilidade é uma formulação imprecisa entre o perigoso culto da emoção e os sentimentos que só são elaborados mediante a interferência da racionalidade capaz de criar conceitos. Não há chance de que arte hoje seja mais do que uma construção para fazer pensar.        </l>
-<p style="margin-top: 0px; letter-spacing: -.1px;">Temos na experiência contemporânea da arte a autopresentificação do seu próprio luto. Como se a arte ainda estivesse no período enojado em que tem que se haver com a memória de um cadáver que é ela mesma e que, na verdade, mimetiza o estado das coisas de um mundo em crise de sentido. Assim é que a obsolescência do conceito de arte o coloca na posição de um conceito-memória. Um conceito que foi válido, mas que perdeu sua circunstância na atualidade. Arte não é mais a bela arte, ainda que possamos com muito esforço descobrir nas obras que a beleza também é um conceito e, como tal, uma visão das coisas.   </p>
-
+<div style="padding: 0px 20px 0px 20px; width: 230px; float: left; margin-top: -4px;">
+<l>para o universo que puder enxergá-la. Dentro de casa ninguém te vê, a rua força as pessoas a verem. Todo mundo precisa ir pra rua uma hora, porque a rua é a verdade.
+Gritar com a rotina e ela te ouvir, afinal, quem não é lembrado quase não existiu. Precisamos da interação, cor é refração de luz, não somos nada sem luz, dentro ou fora de nós.
+Aqueles que</l>
+<p style="margin-top: 0px;"> </p>
 </div>
+
+
+<div style="padding-right: 20px; margin-top: -3px; width: 220px; float: left;">
+<l>não tem fronteiras para se expressar são mais felizes. Quem não se expressa se sufoca. </l>
+<p style="margin-top: 0px;">Os artistas Fábio Nagate, de Presidente Prudente, e Anderson Ferreira Lemes, mais conhecido como Alemão, de Assis, representam o grafitti no interior paulista e mundial. Afirmando com delicadeza, reforçando o contraste das ruínas do meio urbano e do sonho colorido, lugares pouco prováveis abandonados à própria sorte. </p>
+<p>Nagate, através do seu persona-gem, Macaco, buscar transmitir e ilustrar a evolução no homem em seu universo, representando o primata com o terceiro olho, aliando o físico e o espiritual. </p>
+<p>Alemão, que desde pequeno teve, no desenho, estímulo para o estudo e superação de uma dislexia, procura transmitir em suas intervenções as melhores lembranças de sua infância, balões e bicicletas com muita cor. Os olhos de uma criança são a melhor forma de ver o mundo. </p>
+
 </div>
              
              
@@ -221,41 +237,7 @@ seja pela arte, seja pela vida – que acompanhava aquele objeto é experiência
              
              
            </li>
-           <li>
-             
-             
-             
-             
-<div class="mat-capa" style="background: right #fff url(http://i.imgur.com/jA8VpLU.png);">
-  <div style="padding: 0px 0px 0px 60px; margin-top: -17px; width: 230px; float: left; letter-spacing: -.2px;">
-<p>O que a arte contemporânea nos sugere é a experiência do paradoxo do </p><div style="padding: 18px 13px 5px 13px; margin-left: -50px; float: left; font: italic 700 20px playfair display; text-align: right; line-height: 100%;">o paradoxo<br> do gosto
-</div><p style="text-indent: 0px;">gosto. Como é possível “apreciar” esteticamente aquilo que repugna se neste momento a experiência estética como mediação entre
-sensibilidade e racionalidade foi anulada? A questão é que a arte contemporânea, sendo trabalho do luto, acontecendo na contramão do gosto, provoca sempre a experiência do desgosto. Por isso, a arte conceitual
-tem tanto espaço em nosso tempo, por chamar ao pensamento em</p>
-</div>
-
-
-<div style="padding: 0px 20px 0px 20px; width: 230px; float: left; margin-top: -4px; letter-spacing: -.2px;">
-<l>tempos de cancelamento da sensibilidade. É como se toda obra nos enviasse a mensagem: se não podemos “gostar”, podemos “pensar”. É o paradoxo da inestética:
-a sensação é de perda da sensibilidade na arte; mais do que um problema da arte, é problema da cultura na qual ela surge. Um artista como Damien Hirst, com seus bezerros e tubarões no formol, não é, portanto, julgável
-segundo o padrão do gosto pela arte bela, porque estamos em tempos de perda do gosto. O que será que ele nos mostra que não sabemos pensar?</l>
-</div>
-
-
-<div style="padding-right: 20px; margin-top: 163px; width: 220px; float: left;">
-  <p><span style="letter-spacing: -.2px;">Com isso se consegue compreender</span> o que acontece com a arte atual. Ela é a experiência da morte da própria arte bela nestes tempos de desgraça cultural. Tempos tensos: de um lado tragicofílicos – desejamos a tragédia – e de outro tragicofóbicos – evitamos a morte a qualquer custo –, como disse Hans Gumbrecht. Podemos dizer, nestes tempos, que a arte se faz na ordem do trágico, este sentimento da “morte em mim”, da morte como experiência subjetiva, como imagem da melancolia que nada mais é do que a morte do eu e do pensamento que sempre foi a prova de que existia algo chamado “eu”. Não, não exageremos.</p>
-</div>
-
-
-<div style="padding-right: 60px; margin-top: 163px; width: 215px; float: right;letter-spacing: -.2px;">
-<p>A arte contemporânea não é nem trágica nem melancólica. Enlutada, ela nos pede que ultrapassemos a memória da morte e reinventemos o presente. Só o que impede isso é o capital culto à desgraça em que vivemos hoje. O gozo atual é com a ideologia da morte como um fim, quando, na verdade, estúpidos e conceitualmente avarentos, não sabemos entender o valor e o poder das transformações históricas das quais a arte nos dá apenas uma imagem para nos fazer acordar. Mas quando até mesmo a desgraça se tornou um “capital”, haverá espaço para a arte que denuncia o seu caráter capitalista? (<i>Marcia Tiburi</i>)</p>
-</div>
-             
-             
-             
-           </li>
-            
-           
+          
            
            
            
@@ -266,20 +248,10 @@ segundo o padrão do gosto pela arte bela, porque estamos em tempos de perda do 
 
 
 
-<style>
-.nav { padding: 30px 0px 0px 0px; color: #fff; color: black; font: 700 9px open sans; background-color: #5cd9ea; font: 900 25px Lato; text-transform: uppercase; }
-.nav a { color: white;  } .nav b { font-size: 70px; margin: -20px 30px 0px 0px; float: left; }
-.nav b2 { font-size: 70px; margin: -20px 0px 0px 30px; float: right; }
-  
-</style>
+
 <div class="nav">
-       <div style="width: 560px; DISPLAY: INLINE-TABLE; TEXT-ALIGN: LEFT;"><a href="https://paideias.github.io/materia9/"><b>❮</b>Tecnologia e<br> arte digital</a></div>
-      <div style="width: 530px;  HEIGHT: 94PX; DISPLAY: INLINE-TABLE; TEXT-ALIGN: RIGHT;"><a href="https://paideias.github.io/materia5/"><b2>❯</b2>GRAFITTI É VANDALISMO,<br> Pichação é Arte </a></div>
+       <div style="width: 560px; DISPLAY: INLINE-TABLE; TEXT-ALIGN: LEFT;"><a href="https://paideias.github.io/materia9/"><b>❮</b>O luto<br> da arte</a></div>
+      <div style="width: 530px;  HEIGHT: 94PX; DISPLAY: INLINE-TABLE; TEXT-ALIGN: RIGHT;"><a href="https://paideias.github.io/artigo/"><b2>❯</b2>O design e a cultura<br> visual urbana</a></div>
 </div></center></body>
-	</html>
-  
-  
-  
-  
-  
+  </html>
   
